@@ -14,6 +14,7 @@ class App extends Component {
 
   render() {
     const { name, sprites } = this.state.pokemon;
+    console.log(this.state.pokemon);
     return (
       <section>
         <Form handleSumbit={this.handleSumbit} />
